@@ -6,7 +6,7 @@ PROJECT_REPO ?= github.com/upbound/$(PROJECT_NAME)
 
 export TERRAFORM_VERSION ?= 1.2.1
 
-export TERRAFORM_PROVIDER_SOURCE ?= hashicorp/null
+export TERRAFORM_PROVIDER_SOURCE ?= hashicorp/vsphere
 export TERRAFORM_PROVIDER_REPO ?= https://github.com/hashicorp/terraform-provider-null
 export TERRAFORM_PROVIDER_VERSION ?= 2.4.3
 export TERRAFORM_PROVIDER_DOWNLOAD_NAME ?= terraform-provider-null
